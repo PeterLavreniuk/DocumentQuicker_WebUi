@@ -1,24 +1,17 @@
-# documentquicker_webui
+# DocumentQuicker
+Lightweight document management system. Web api.
 
-## Project setup
-```
-npm install
-```
+## Description
+The web API and web interface are currently under development.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Why?
+- It is cool to have your own project.
+- Practice of technologies and methodologies.
+- My friends have a small business, and they are tired of looking for useful document system.
+- I have a raspberry pi. I want to practice deploing .net web api under Linux.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Authors
+* **Peter Lavreniuk** - [PeterLavreniuk](https://github.com/PeterLavreniuk)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+DocumentQuicker is licensed under the GNU GPL-2.0 License
