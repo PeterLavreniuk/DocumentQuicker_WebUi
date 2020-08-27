@@ -41,6 +41,7 @@ export default {
 #content{
   width: 85%;
   height: 100%;
+  align: left;
   flex: auto;
   flex-shrink: 0;
 }

@@ -5,7 +5,7 @@
         <router-link class-active="active" to="/">Dashboard</router-link>
       </li>
       <li>
-        <router-link to="/banks">Banks</router-link>
+        <router-link to="/requisites">Requisites</router-link>
       </li>
     </ul>
   </div>
@@ -31,7 +31,7 @@ ul{
 
 li a {
   display: block;
-  color: #000;
+  color: #000000;
   padding: 8px 16px;
   text-decoration: none;
 }

@@ -1,26 +1,27 @@
 <template>
-  <div id="bank_info_container">
+  <div>
     {{bankInfo.description}} <br>
     {{bankInfo.bic}} <br>
     {{bankInfo.corrAccount}} <br>
+    {{bankInfo.corrAccount}} <br>
     {{bankInfo.creationDate}} <br>
     {{bankInfo.editDate}} <br>
-    <button>Edit</button> <br>
-    <button>Remove</button>
   </div>
 </template>
 
 <script>
+
+const State = Object.freeze({ Undefined : 0, Edit: 1, Preview : 2});
+
 export default {
-  name: "BankReadonly",
+  name: "BankModel",
   props: {
-    bankInfo: Object
+    bankInfo: Object,
+    state: State.Undefined
   }
 }
 </script>
 
 <style scoped>
-#bank_info_container{
-  margin: 10px;
-}
+
 </style>
